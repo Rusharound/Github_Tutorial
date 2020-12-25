@@ -21,7 +21,9 @@ void setup()
 
 void loop() 
 {
-  byte myValue = 0;
+  int myValue = 0;
+  int testVal = 3;
+  int anotherTest = 4;
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
@@ -29,4 +31,3 @@ void loop()
 
   delay(250);
 }
-
